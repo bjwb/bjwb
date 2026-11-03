@@ -8,7 +8,7 @@
   <strong>로봇이 세상을 이해하고, 스스로 움직이도록.</strong>
 </p> -->
 
-I'm **Jin-woo Bae**, a robotics developer in Seoul working on **autonomous mobile robots**.
+I'm **Jin-woo Bae**, a robotics developer working on **autonomous mobile robots**.
 I connect perception and mapping with motion planning and control, mostly in the **ROS 2** ecosystem.
 
 ### What I work on
