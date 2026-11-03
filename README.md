@@ -1,12 +1,12 @@
-<picture>
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/robotics-hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/robotics-hero-light.svg">
   <img alt="Jin-woo Bae — Robotics developer. Robots that see, plan, and move." src="./assets/robotics-hero-light.svg" width="100%">
-</picture>
-
+</picture> -->
+<!-- 
 <p align="center">
   <strong>로봇이 세상을 이해하고, 스스로 움직이도록.</strong>
-</p>
+</p> -->
 
 I'm **Jin-woo Bae**, a robotics developer in Seoul working on **autonomous mobile robots**.
 I connect perception and mapping with motion planning and control, mostly in the **ROS 2** ecosystem.
@@ -16,7 +16,7 @@ I connect perception and mapping with motion planning and control, mostly in the
 - **Perception & mapping** — RGB-D sensing, visual SLAM, and RTAB-Map.
 - **Planning & navigation** — occupancy maps, Voronoi roadmaps, and Nav2.
 - **Motion control** — model predictive control, obstacle constraints, and trajectory tracking.
-
+<!-- 
 ### Featured projects
 
 | Project | What you'll find |
@@ -38,7 +38,7 @@ I connect perception and mapping with motion planning and control, mostly in the
 - **Social navigation** — following the field through [awesome-robot-social-navigation](https://github.com/bjwb/awesome-robot-social-navigation), a fork of the community reading list.
 - **Inverse reinforcement learning** — exploring existing algorithm implementations in my [Inverse-Reinforcement-Learning fork](https://github.com/bjwb/Inverse-Reinforcement-Learning).
 
-</details>
+</details> -->
 
 ---
 
