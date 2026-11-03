@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Jin-woo Bae — Robotics developer</title>
+  <desc id="description">A robotics profile banner with a differential-drive robot following a mint-colored path through an occupancy map. ROS 2, autonomous navigation, and visual SLAM.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1726"/>
+      <stop offset="1" stop-color="#111E30"/>
+    </linearGradient>
+    <linearGradient id="sensor" x1="974" y1="246" x2="1090" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" stroke="#293C50" stroke-opacity=".52" stroke-width=".8"/>
+    </pattern>
+    <clipPath id="panel">
+      <rect x="728" y="44" width="496" height="370" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Identity -->
+  <rect x="1" y="1" width="1278" height="458" rx="24" fill="url(#background)" stroke="#293C50"/>
+  <path d="M57 67V55H69M57 61H63M75 55H87V67M81 55V61M57 75V87H69M57 81H63M75 87H87V75M81 81V87" stroke="#5EEAD4" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="72" cy="71" r="5" fill="#5EEAD4"/>
+  <g font-family="'Segoe UI', Inter, Arial, sans-serif">
+    <text x="104" y="69" fill="#D4E5F3" font-size="14" font-weight="600" letter-spacing="3">BJWB / ROBOTICS</text>
+    <text x="104" y="87" fill="#93A8BE" font-size="11" letter-spacing="1.4">PERCEPTION · PLANNING · CONTROL</text>
+    <text x="55" y="166" fill="#F1F7FC" font-size="68" font-weight="700" letter-spacing="-2.8">Jin-woo Bae<tspan fill="#5EEAD4">.</tspan></text>
+    <text x="57" y="226" fill="#D4E5F3" font-size="36" font-weight="400" letter-spacing="-.7">Robots that see,</text>
+    <text x="57" y="270" fill="#D4E5F3" font-size="36" font-weight="400" letter-spacing="-.7">plan, and move.</text>
+    <text x="58" y="311" fill="#93A8BE" font-size="17">ROS 2 · Autonomous navigation · Visual SLAM</text>
+    <rect x="57" y="349" width="143" height="35" rx="7" fill="#173330" stroke="#28564F"/>
+    <text x="128.5" y="371" fill="#5EEAD4" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="middle">PERCEPTION</text>
+    <rect x="212" y="349" width="127" height="35" rx="7" fill="#142C42" stroke="#294C68"/>
+    <text x="275.5" y="371" fill="#8FC6FF" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="middle">PLANNING</text>
+    <rect x="351" y="349" width="123" height="35" rx="7" fill="#26273D" stroke="#454366"/>
+    <text x="412.5" y="371" fill="#C4B5FD" font-size="11" font-weight="600" letter-spacing="1.6" text-anchor="middle">CONTROL</text>
+    <circle cx="62" cy="419" r="3" fill="#5EEAD4"/>
+    <text x="74" y="423" fill="#93A8BE" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" letter-spacing="1.4">SEOUL, KR</text>
+  </g>
+
+  <!-- A stylized navigation map; illustrative, not live telemetry. -->
+  <rect x="728" y="44" width="496" height="370" rx="18" fill="#0B1421" stroke="#293C50"/>
+  <g clip-path="url(#panel)">
+    <rect x="729" y="45" width="494" height="368" fill="url(#grid)"/>
+    <path d="M752 97H1200M752 97V389" stroke="#334C61" stroke-dasharray="3 6"/>
+    <g fill="#203247" stroke="#3C5269" stroke-width="1.2">
+      <rect x="790" y="116" width="86" height="66" rx="6"/>
+      <rect x="965" y="135" width="78" height="64" rx="6"/>
+      <rect x="855" y="286" width="83" height="70" rx="6"/>
+      <rect x="1085" y="291" width="68" height="49" rx="6"/>
+    </g>
+    <g stroke="#3C5269" stroke-opacity=".65">
+      <path d="M802 129H863M802 141H863M802 153H863M802 165H863"/>
+      <path d="M978 149H1030M978 161H1030M978 173H1030M978 185H1030"/>
+      <path d="M868 300H925M868 312H925M868 324H925M868 336H925"/>
+      <path d="M1098 304H1140M1098 316H1140M1098 328H1140"/>
+    </g>
+
+    <!-- Observation points and field of view -->
+    <path d="M974 246L1103 151Q1140 198 1126 259Z" fill="url(#sensor)"/>
+    <g stroke="#5EEAD4" stroke-opacity=".16">
+      <path d="M974 246L1103 151M974 246L1129 193M974 246L1126 259"/>
+    </g>
+    <g fill="#8FC6FF" opacity=".65">
+      <circle cx="783" cy="111" r="2"/><circle cx="805" cy="107" r="2"/>
+      <circle cx="833" cy="108" r="2"/><circle cx="859" cy="109" r="2"/>
+      <circle cx="885" cy="134" r="2"/><circle cx="885" cy="157" r="2"/>
+      <circle cx="882" cy="181" r="2"/><circle cx="958" cy="142" r="2"/>
+      <circle cx="957" cy="164" r="2"/><circle cx="956" cy="188" r="2"/>
+      <circle cx="977" cy="207" r="2"/><circle cx="1002" cy="207" r="2"/>
+      <circle cx="1028" cy="207" r="2"/><circle cx="1052" cy="185" r="2"/>
+      <circle cx="1052" cy="160" r="2"/><circle cx="848" cy="296" r="2"/>
+      <circle cx="848" cy="322" r="2"/><circle cx="949" cy="300" r="2"/>
+      <circle cx="1078" cy="296" r="2"/><circle cx="1103" cy="282" r="2"/>
+      <circle cx="1126" cy="282" r="2"/><circle cx="1157" cy="307" r="2"/>
+    </g>
+
+    <!-- Trajectory: traveled segment solid, planned segment dashed. -->
+    <path d="M788 340C813 321 814 255 870 231S934 237 974 247" stroke="#5EEAD4" stroke-opacity=".10" stroke-width="17" stroke-linecap="round"/>
+    <path d="M788 340C813 321 814 255 870 231S934 237 974 247" stroke="#5EEAD4" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M974 247C1015 262 1050 259 1084 207S1105 145 1162 112" stroke="#5EEAD4" stroke-width="2.5" stroke-dasharray="6 8" stroke-linecap="round"/>
+    <circle cx="788" cy="340" r="5" fill="#0B1421" stroke="#5EEAD4" stroke-width="2"/>
+    <circle cx="870" cy="231" r="3.5" fill="#5EEAD4"/>
+    <circle cx="1084" cy="207" r="3.5" fill="#5EEAD4"/>
+
+    <!-- Differential-drive robot -->
+    <circle cx="974" cy="247" r="47" stroke="#5EEAD4" stroke-opacity=".20"/>
+    <circle cx="974" cy="247" r="60" stroke="#5EEAD4" stroke-opacity=".10" stroke-dasharray="3 7"/>
+    <g transform="translate(974 247) rotate(8)">
+      <rect x="-15" y="-25" width="27" height="8" rx="3" fill="#93A8BE"/>
+      <rect x="-15" y="17" width="27" height="8" rx="3" fill="#93A8BE"/>
+      <rect x="-24" y="-18" width="47" height="36" rx="10" fill="#173330" stroke="#5EEAD4" stroke-width="2"/>
+      <circle cx="-3" cy="0" r="7" fill="#5EEAD4"/>
+      <path d="M28 0L16-7V7Z" fill="#5EEAD4"/>
+    </g>
+
+    <!-- Goal and frame axes -->
+    <circle cx="1162" cy="112" r="15" stroke="#5EEAD4" stroke-opacity=".3"/>
+    <circle cx="1162" cy="112" r="7" stroke="#5EEAD4" stroke-width="2"/>
+    <circle cx="1162" cy="112" r="2" fill="#5EEAD4"/>
+    <path d="M1162 91V97M1162 127V133M1141 112H1147M1177 112H1183" stroke="#5EEAD4" stroke-width="1.5"/>
+    <path d="M755 386H787M755 386V355" stroke="#93A8BE" stroke-width="1.3"/>
+    <path d="M787 386L783 383M787 386L783 389M755 355L752 359M755 355L758 359" stroke="#93A8BE" stroke-width="1.3"/>
+  </g>
+
+  <g font-family="'SFMono-Regular', Consolas, monospace" font-size="10" letter-spacing="1.3">
+    <text x="752" y="73" fill="#93A8BE">LOCAL FRAME / MAP</text>
+    <circle cx="1120" cy="69" r="3" fill="#5EEAD4"/>
+    <text x="1132" y="73" fill="#D4E5F3">ROS 2</text>
+    <text x="1150" y="149" fill="#5EEAD4" font-size="9">GOAL</text>
+    <text x="787" y="363" fill="#93A8BE" font-size="9">START</text>
+    <text x="794" y="390" fill="#93A8BE" font-size="9">x</text>
+    <text x="751" y="348" fill="#93A8BE" font-size="9">y</text>
+    <text x="1221" y="440" fill="#93A8BE" text-anchor="end">SENSE / LOCALIZE / NAVIGATE</text>
+  </g>
+</svg>
